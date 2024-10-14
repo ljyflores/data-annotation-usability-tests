@@ -1,0 +1,4 @@
+ipykernel
+streamlit==1.37.0
+streamlit_authenticator
+watchdog

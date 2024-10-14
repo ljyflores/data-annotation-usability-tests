@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 15
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    admin:
+      email: user@email.com
+      name: Testy Tester
+      password: $2b$12$mhErrG5BM08Sah7yZ8KBGu0l/JV.h0L78YCVn.9kMWQFr/5I2vjK6
+    lj:
+      email: null
+      name: Lj Flores
+      password: $2b$12$MkOlLsuuVFZRyr5N176ND.QlP8YH80vivbQKAf0YaKtF4zXgt.lvi
+pre-authorized:
+  emails:
+  - user@email.com

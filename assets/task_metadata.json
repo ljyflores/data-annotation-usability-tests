@@ -1,0 +1,6 @@
+{
+    "qa": {
+        "display_name": "Question Answering Task",
+        "task_page": "pages/qa.py"
+    }
+}
