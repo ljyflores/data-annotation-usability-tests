@@ -2,6 +2,12 @@
 
 Welcome to the usability tests annotation platform, a project for ECSE 542! The goal is to test various features of the annotation platform, to understand what factors about the platform improve users' annotation speeds and accuracy.
 
+Project Notes:
+In this folder, we have included
+- Screenshots of the current state of the platform (simple task selection and data entry panel)
+- Sketches
+- Interview scripts
+
 ## Set Up + Usage
 
 ### Setting Up
