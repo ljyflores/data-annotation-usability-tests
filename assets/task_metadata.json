@@ -1,6 +1,26 @@
 {
-    "qa": {
-        "display_name": "Question Answering Task",
-        "task_page": "pages/qa.py"
+    "qa1": {
+        "display_name": "Question Answering Task 1",
+        "task_page": "pages/qa1.py"
+    },
+    "qa2": {
+        "display_name": "Question Answering Task 2",
+        "task_page": "pages/qa2.py"
+    },
+    "qa3": {
+        "display_name": "Question Answering Task 3",
+        "task_page": "pages/qa3.py"
+    },
+    "qa4": {
+        "display_name": "Question Answering Task 4",
+        "task_page": "pages/qa4.py"
+    },
+    "qa5": {
+        "display_name": "Question Answering Task 5",
+        "task_page": "pages/qa5.py"
+    },
+    "qa6": {
+        "display_name": "Question Answering Task 6",
+        "task_page": "pages/qa6.py"
     }
 }

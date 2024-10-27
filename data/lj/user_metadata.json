@@ -16,11 +16,11 @@
         "total_items": 10
     },
     "qa5": {
-        "completed_items": 3,
+        "completed_items": 0,
         "total_items": 10
     },
     "qa6": {
-        "completed_items": 1,
+        "completed_items": 0,
         "total_items": 10
     }
 }

@@ -21,18 +21,14 @@ authenticator = stauth.Authenticate(
     config["cookie"]["expiry_days"],
     config["pre-authorized"],
 )
-name, authentication_status, username = authenticator.login()
+name, authentication_status, username = authenticator.login()  # type: ignore
 if authentication_status is None:
     st.switch_page("main.py")
 
 # Load user data
 username = st.session_state.username
-if st.session_state.using_shared_task:
-    data_path = "data/shared/qa.csv"
-    metadata_path = "data/shared/user_metadata.json"
-else:
-    data_path = f"data/{username}/qa.csv"
-    metadata_path = f"data/{username}/user_metadata.json"
+data_path = f"data/{username}/qa1.csv"
+metadata_path = f"data/{username}/user_metadata.json"
 
 # Load task data and metadata
 df = pd.read_csv(data_path)  # type: ignore
@@ -44,7 +40,7 @@ id_unfinished: list[object] = sorted(
 )
 assert (
     len(id_unfinished)
-    == user_metadata["qa"]["total_items"] - user_metadata["qa"]["completed_items"]
+    == user_metadata["qa1"]["total_items"] - user_metadata["qa1"]["completed_items"]
 )
 
 
@@ -57,12 +53,8 @@ def save_data():
     # Save the selection in the dataframe
     df.loc[report_idx, "label"] = str(summary)
 
-    # If this is a shared task, save the annotator as well
-    if st.session_state.using_shared_task:
-        df.loc[report_idx, "annotator"] = username
-
     # Update the metadata
-    user_metadata["qa"]["completed_items"] += 1
+    user_metadata["qa1"]["completed_items"] += 1
 
     # Save the data and metadata
     df.to_csv(data_path, index=False)

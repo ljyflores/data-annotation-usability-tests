@@ -18,7 +18,7 @@ authenticator = stauth.Authenticate(
     config["cookie"]["key"],
     config["cookie"]["expiry_days"],
 )
-username, authentication_status, username = authenticator.login("main")
+username, authentication_status, username = authenticator.login("main")  # type: ignore
 if authentication_status is None:
     st.switch_page("main.py")
 
@@ -38,7 +38,6 @@ caption_list = [
 selected_task = st.radio(
     "Select a Task", task_list, captions=caption_list, key="task_select_button"
 )
-st.session_state["using_shared_task"] = False
 
 # Go to task
 selected_key = list(user_metadata.keys())[task_list.index(selected_task)]

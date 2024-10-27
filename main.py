@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_authenticator as stauth
+import streamlit_authenticator as stauth  # type: ignore
 import yaml
 
 from yaml.loader import SafeLoader
@@ -15,11 +15,11 @@ authenticator = stauth.Authenticate(
     config["pre-authorized"],
 )
 
-name, authentication_status, username = authenticator.login("main")
+name, authentication_status, username = authenticator.login("main")  # type: ignore
 
 if authentication_status:
-    authenticator.logout("Logout", "main")
-    st.write(f"Welcome *{name}*")
+    authenticator.logout("Logout", "main")  # type: ignore
+    st.write(f"Welcome *{name}*")  # type: ignore
     st.session_state["username"] = username
     st.session_state["name"] = name
     st.switch_page("pages/task_page.py")
