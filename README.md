@@ -9,6 +9,11 @@ Welcome to the usability tests annotation platform, a project for ECSE 542! The 
 * Created basic annotation set up, where users are shown a sequence of data samples to annotate
 * On the admin side, it contains features that allows me to assign users to tasks
 
+In the submission, we included:
+- Screenshots of the current state of the platform (simple task selection and data entry panel)
+- Sketches
+- Interview scripts
+
 ### Milestone 2
 
 * Created multiple pages and tweaked the scripts so that (1) a user gets assigned all tasks to be tested, and (2) the task page lets users choose which task to work on
@@ -19,6 +24,10 @@ Welcome to the usability tests annotation platform, a project for ECSE 542! The 
   * Interface 4: Serif font
   * Interface 5: 10 second lag between samples
   * Interface 6: 30 second lag between samples
+
+In the submission, we included:
+- Screenshots of the 5 interfaces
+- Updated codebase
 
 ## Set Up + Usage
 
