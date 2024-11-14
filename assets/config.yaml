@@ -8,10 +8,18 @@ credentials:
       email: user@email.com
       name: Testy Tester
       password: $2b$12$mhErrG5BM08Sah7yZ8KBGu0l/JV.h0L78YCVn.9kMWQFr/5I2vjK6
+    david:
+      email: null
+      name: null
+      password: $2b$12$jRrSzItELaPSDx1LSxkdTumABEYLSH6bKJRSISkkUwTV6q3/SYMqa
     lj:
       email: null
       name: Lj Flores
       password: $2b$12$MkOlLsuuVFZRyr5N176ND.QlP8YH80vivbQKAf0YaKtF4zXgt.lvi
+    ziling:
+      email: null
+      name: null
+      password: $2b$12$PGkAkDgraFAXRSKXG4tPvOhWd5QV8NAAfdK3OhYv0imHBT6t0gE7m
 pre-authorized:
   emails:
   - user@email.com
