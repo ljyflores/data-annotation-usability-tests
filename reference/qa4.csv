@@ -1,31 +1,31 @@
 id,report,label
 1,"Premise: Girl wearing purple jacket rides a red snow sled.
 
-a girl is riding a sled.",
+a girl is riding a sled.",0
 2,"Premise: A tan dog is standing in front of some plants.
 
-a dog and some plants",
+a dog and some plants",0
 3,"Premise: Woman wearing black snow gear walking down a snow covered slope.
 
-The woman is wearing a bikini.",
+The woman is wearing a bikini.",2
 4,"Premise: A little child in red pants and a black kimino like top is walking.
 
-The little child is walking down a dirt road.",
+The little child is walking down a dirt road.",1
 5,"Premise: A man wearing a black coat walking past a fence.
 
-A man in a black coat is walking past his property.",
+A man in a black coat is walking past his property.",1
 6,"Premise: A man with short, styled hair using an electric razor to trim his facial hair.
 
-A man is crying while starring at a mirror.\",
+A man is crying while starring at a mirror.\",2
 7,"Premise: A man dressed in blue jeans, green shirt and red vest putting up Christmas stockings.
 
-a man is preparing for christmas",
+a man is preparing for christmas",0
 8,"Premise: it looks to be a glass maker heating up some glass to make something while visitors in the background watch him
 
-A glass maker is making something and has an audience.",
+A glass maker is making something and has an audience.",0
 9,"Premise: A person holding a bike a sunny day.
 
-A person outside in the sun with their bike",
+A person outside in the sun with their bike",0
 10,"Premise: The man in the red shirt and flowery tie is sitting on a bus by the window.
 
-A man is sitting on the bus.",
+A man is sitting on the bus.",0
