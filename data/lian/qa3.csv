@@ -1,0 +1,31 @@
+id,report,label
+1,"Premise: Five men, with matching red shirts, stand on the gymnasium floor in honor.
+
+the men never showed up for the game",1.0
+2,"Premise: An older asian woman displaying bread for sale
+
+A younger asian male displaying cookies for sale.",2.0
+3,"Premise: A skateboarder attempts to do a trick over a homemade ramp.
+
+A skateboarder attempts a trick.",0.0
+4,"Premise: A person with tattoos is looking at a photo on a digital camera, or cellphone.
+
+A person looks at a digital photo.",0.0
+5,"Premise: A man in a white shirt is sitting in front of a large amount of computer equipment.
+
+A man is sitting down",2.0
+6,"Premise: Two men standing with an elephant next to a building.
+
+People standing.",2.0
+7,"Premise: A baby carrying a ball in stands in front of a house with a hose in the background.
+
+A baby is sitting in the high chair waiting to be fed.",2.0
+8,"Premise: Asian sports team in yellow and blue colors sitting on ground with a standing individual in a tiger mascot costume.
+
+A sports team poses with the cheerleaders.",2.0
+9,"Premise: Two people sitting together on the base of a column.
+
+There are people sitting next to a column in the museum.",0.0
+10,"Premise: A parade of women, dressed in blue and yellow and white dresses and matching headgear, walking down a street, while people on the sidewalk watch.
+
+The women are snow skiing.",1

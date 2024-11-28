@@ -12,6 +12,10 @@ credentials:
       email: null
       name: null
       password: $2b$12$jRrSzItELaPSDx1LSxkdTumABEYLSH6bKJRSISkkUwTV6q3/SYMqa
+    lian:
+      email: null
+      name: null
+      password: $2b$12$i1To5G8bp0Ou1iAIJXmCxeyWUatMg14uoLqoMDz01.30CKuJpYUMu
     lj:
       email: null
       name: Lj Flores

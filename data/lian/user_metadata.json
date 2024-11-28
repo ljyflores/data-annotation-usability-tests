@@ -1,0 +1,26 @@
+{
+    "qa1": {
+        "completed_items": 10,
+        "total_items": 10
+    },
+    "qa2": {
+        "completed_items": 10,
+        "total_items": 10
+    },
+    "qa3": {
+        "completed_items": 10,
+        "total_items": 10
+    },
+    "qa4": {
+        "completed_items": 10,
+        "total_items": 10
+    },
+    "qa5": {
+        "completed_items": 10,
+        "total_items": 10
+    },
+    "qa6": {
+        "completed_items": 10,
+        "total_items": 10
+    }
+}
